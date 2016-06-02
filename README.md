@@ -46,21 +46,21 @@ Parameter | Definition
 curl http://salty-badlands-92678.herokuapp.com/api/premises/:id
 ```
 
-### Accounts
+### Products
 
-#### Retrieve all accounts
+#### Retrieve all products
 ```
-curl http://salty-badlands-92678.herokuapp.com/api/accounts
+curl http://salty-badlands-92678.herokuapp.com/api/products
 ```
 
-#### Retrieve a single account
+#### Retrieve a single product
 
 Parameter | Definition
 :------------ | :-------------
-:id | The account's unique id.
+:id | The product's unique id.
 
 ```
-curl http://salty-badlands-92678.herokuapp.com/api/accounts/:id
+curl http://salty-badlands-92678.herokuapp.com/api/products/:id
 ```
 
 ### Monthly consumptions
