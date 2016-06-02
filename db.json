@@ -1,0 +1,276 @@
+{
+  "customers": [
+    {
+      "id": "a19c925c-f353-496e-84c8-da9999e535c8",
+      "firstName": "Marge",
+      "lastName": "Mann",
+      "dateOfBirth": "1974-09-16T02:09:12.781Z",
+      "products": [
+        "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+        "4f2f30f2-4cc5-4022-93cf-a9b6ac8f222b"
+      ]
+    },
+    {
+      "id": "28da77c4-270b-465a-a18e-f2ad18dd6d45",
+      "firstName": "Dewayne",
+      "lastName": "Cartwright",
+      "dateOfBirth": "1984-06-19T12:44:21.411Z",
+      "products": [
+        "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+        "2ca20d1b-833b-41ba-b6b2-9fb535a5af14"
+      ]
+    },
+    {
+      "id": "9ab493f7-32c8-40b8-88e1-7d78ff9698e8",
+      "firstName": "Violet",
+      "lastName": "Wiegand",
+      "dateOfBirth": "1967-04-17T17:04:57.090Z",
+      "products": [
+        "c0f45267-49f9-446a-93ec-7ae267df76d9",
+        "72e00348-95ad-42cf-bb0b-0277f091cbde"
+      ]
+    },
+    {
+      "id": "feb7f771-793b-4da1-9855-b11b4cc312cf",
+      "firstName": "Avis",
+      "lastName": "Beer",
+      "dateOfBirth": "1978-06-15T16:25:52.061Z",
+      "products": [
+        "460bc58d-7ae2-4e54-853c-3556799c78da"
+      ]
+    }
+  ],
+  "premises": [
+    {
+      "id": "054a8c66-ae23-4dd3-b865-49e1221785a8",
+      "address": "009 Bartoletti Mill",
+      "postcode": "14397",
+      "city": "Jenningsberg",
+      "customer": "a19c925c-f353-496e-84c8-da9999e535c8"
+    },
+    {
+      "id": "398e80db-4475-4ec0-bc34-b62f96774506",
+      "address": "9493 Predovic Forks",
+      "postcode": "75050",
+      "city": "Prosaccofort",
+      "customer": "28da77c4-270b-465a-a18e-f2ad18dd6d45"
+    },
+    {
+      "id": "246f9a52-ba0a-4799-b88e-3ff679fd1385",
+      "address": "449 Turner Mall",
+      "postcode": "97093-4510",
+      "city": "West Kali",
+      "customer": "28da77c4-270b-465a-a18e-f2ad18dd6d45"
+    },
+    {
+      "id": "30399f1d-c86d-46f0-a15c-d8980636d35c",
+      "address": "411 Francesca Park",
+      "postcode": "56869",
+      "city": "Roselynton",
+      "customer": "9ab493f7-32c8-40b8-88e1-7d78ff9698e8"
+    },
+    {
+      "id": "9fedc3fa-c848-4d47-946b-659e5dd4af56",
+      "address": "26755 Runolfsdottir Junction",
+      "postcode": "82907",
+      "city": "Alfonsoview",
+      "customer": "9ab493f7-32c8-40b8-88e1-7d78ff9698e8"
+    },
+    {
+      "id": "e447464d-d1a7-4cec-a29f-9c337bbdd986",
+      "address": "6267 Windler Pike",
+      "postcode": "50753",
+      "city": "Ziemeburgh",
+      "customer": "feb7f771-793b-4da1-9855-b11b4cc312cf"
+    },
+    {
+      "id": "5879f24e-cbcb-4645-b59f-7fbbc0543ced",
+      "address": "0102 Elisabeth Garden",
+      "postcode": "62208",
+      "city": "Morissetteport",
+      "customer": "feb7f771-793b-4da1-9855-b11b4cc312cf"
+    }
+  ],
+  "products": [
+    {
+      "id": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "type": "Gas",
+      "premise": "054a8c66-ae23-4dd3-b865-49e1221785a8",
+      "monthlyConsumptions": [
+        "c44da1fc-a0fc-4a98-8940-13d41c881a42",
+        "2fb59973-dc09-4a0b-928c-e584a941bfd1",
+        "e2daa261-6885-44d4-a6b9-d6b2faffc084",
+        "e9d5458f-79e3-47b2-a590-086545c17b0d",
+        "0c73feb3-ff84-465a-8713-bbf5e18a2cf0",
+        "484f3ed9-f5d3-4568-bede-974fb558ffda",
+        "e92ec65d-aba2-46fa-9317-4b3584cad50f",
+        "bece2dab-5438-4556-88a1-0050a5d96393"
+      ]
+    },
+    {
+      "id": "4f2f30f2-4cc5-4022-93cf-a9b6ac8f222b",
+      "type": "Insurance",
+      "premise": "054a8c66-ae23-4dd3-b865-49e1221785a8",
+      "monthlyConsumptions": []
+    },
+    {
+      "id": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "type": "Electricity",
+      "premise": "246f9a52-ba0a-4799-b88e-3ff679fd1385",
+      "monthlyConsumptions": [
+        "4959314f-5102-42a0-97fa-a875c4ea86e5",
+        "abf1ce2e-24fe-4301-b160-5f06b5ac672f",
+        "469caff7-e587-4831-9142-ab2c27ed13c7",
+        "e891687a-7346-424e-9525-7a01459294f4",
+        "be5f93f3-000b-4906-a558-71df8d1051c1"
+      ]
+    },
+    {
+      "id": "2ca20d1b-833b-41ba-b6b2-9fb535a5af14",
+      "type": "Insurance",
+      "premise": "246f9a52-ba0a-4799-b88e-3ff679fd1385",
+      "monthlyConsumptions": []
+    },
+    {
+      "id": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "type": "Electricity",
+      "premise": "9fedc3fa-c848-4d47-946b-659e5dd4af56",
+      "monthlyConsumptions": [
+        "1214fa03-97f6-4896-ae6b-7082cf604390",
+        "37a6f027-4dd4-4ab6-a14b-2500fa9a2621",
+        "c9381d80-70a5-4c49-8462-42286851808b",
+        "2242b4f9-4cc3-4bb7-8882-309acf646699",
+        "1bf75a6d-de1e-4891-a500-62d297978d56",
+        "006bd301-870e-4bba-9b13-42acab36ca42"
+      ]
+    },
+    {
+      "id": "72e00348-95ad-42cf-bb0b-0277f091cbde",
+      "type": "Insurance",
+      "premise": "9fedc3fa-c848-4d47-946b-659e5dd4af56",
+      "monthlyConsumptions": []
+    },
+    {
+      "id": "460bc58d-7ae2-4e54-853c-3556799c78da",
+      "type": "Insurance",
+      "premise": "5879f24e-cbcb-4645-b59f-7fbbc0543ced",
+      "monthlyConsumptions": []
+    }
+  ],
+  "monthlyConsumptions": [
+    {
+      "id": "c44da1fc-a0fc-4a98-8940-13d41c881a42",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 946,
+      "date": "02/05/2016"
+    },
+    {
+      "id": "2fb59973-dc09-4a0b-928c-e584a941bfd1",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 919,
+      "date": "02/04/2016"
+    },
+    {
+      "id": "e2daa261-6885-44d4-a6b9-d6b2faffc084",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 951,
+      "date": "02/03/2016"
+    },
+    {
+      "id": "e9d5458f-79e3-47b2-a590-086545c17b0d",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 726,
+      "date": "02/02/2016"
+    },
+    {
+      "id": "0c73feb3-ff84-465a-8713-bbf5e18a2cf0",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 614,
+      "date": "02/01/2016"
+    },
+    {
+      "id": "484f3ed9-f5d3-4568-bede-974fb558ffda",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 561,
+      "date": "02/12/2015"
+    },
+    {
+      "id": "e92ec65d-aba2-46fa-9317-4b3584cad50f",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 258,
+      "date": "02/11/2015"
+    },
+    {
+      "id": "bece2dab-5438-4556-88a1-0050a5d96393",
+      "product": "4ac82cf6-4df0-4bd0-8417-c991c62aa5f6",
+      "value": 667,
+      "date": "02/10/2015"
+    },
+    {
+      "id": "4959314f-5102-42a0-97fa-a875c4ea86e5",
+      "product": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "value": 673,
+      "date": "02/05/2016"
+    },
+    {
+      "id": "abf1ce2e-24fe-4301-b160-5f06b5ac672f",
+      "product": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "value": 934,
+      "date": "02/04/2016"
+    },
+    {
+      "id": "469caff7-e587-4831-9142-ab2c27ed13c7",
+      "product": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "value": 265,
+      "date": "02/03/2016"
+    },
+    {
+      "id": "e891687a-7346-424e-9525-7a01459294f4",
+      "product": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "value": 659,
+      "date": "02/02/2016"
+    },
+    {
+      "id": "be5f93f3-000b-4906-a558-71df8d1051c1",
+      "product": "bd748fc3-135e-49a2-a1f0-5cee8796e537",
+      "value": 873,
+      "date": "02/01/2016"
+    },
+    {
+      "id": "1214fa03-97f6-4896-ae6b-7082cf604390",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 937,
+      "date": "02/05/2016"
+    },
+    {
+      "id": "37a6f027-4dd4-4ab6-a14b-2500fa9a2621",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 521,
+      "date": "02/04/2016"
+    },
+    {
+      "id": "c9381d80-70a5-4c49-8462-42286851808b",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 352,
+      "date": "02/03/2016"
+    },
+    {
+      "id": "2242b4f9-4cc3-4bb7-8882-309acf646699",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 438,
+      "date": "02/02/2016"
+    },
+    {
+      "id": "1bf75a6d-de1e-4891-a500-62d297978d56",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 165,
+      "date": "02/01/2016"
+    },
+    {
+      "id": "006bd301-870e-4bba-9b13-42acab36ca42",
+      "product": "c0f45267-49f9-446a-93ec-7ae267df76d9",
+      "value": 449,
+      "date": "02/12/2015"
+    }
+  ]
+}
