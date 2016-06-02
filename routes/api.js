@@ -7,7 +7,7 @@ const db = low('db.json');
 
 router.get('/customers', function(req, res, next) {
   res.send({
-    developers: db.get('customers').value()
+    customers: db.get('customers').value()
   });
 });
 
